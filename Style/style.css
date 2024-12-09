@@ -51,4 +51,100 @@ body{
     width: 50%;
     height: 650px;
 }
-
+.featured-contain{
+    width: 90%;
+    height: 680px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.featured-contain-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.featured-contain-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 18px;
+}
+.first-img,.second-img,.third-img{
+    width: 430px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+}
+#first{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+#second{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+#third{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.instragram-section-contain{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.instragram-text-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.first-insta-image{
+    width: 342px;
+    height: 396px;
+}
+.first-insta-image img{
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.instragram-image-contain{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.super-deals-container{
+    width: 90%;
+    height: 449px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+.deals-contant p{
+    margin-bottom: 20px;
+}
+.deals-contant input{
+    width: 500px;
+    height: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+#deals-btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 9px;
+    color: white;
+}
